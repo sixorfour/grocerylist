@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Grocery List</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Grocery List</h1>
+  <form id="groceryForm">
+    <input type="text" id="itemName" placeholder="Enter an item">
+    <button type="submit">Add</button>
+  </form>
+  <ul id="groceryItems">
+    <!-- List items will be dynamically added here -->
+  </ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
